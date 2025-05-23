@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming Challenges</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="navbar">
+            <h1>My Programming Challenges Page</h1>
+            <ul>
+                <li>Home</li>
+                <li>Challenges</li>
+                <li>Contribute to the crew</li>
+                <li><button onclick="signIn()">Sign in</button></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section class="welcome">
+            <h2>Welcome To Your Programming Fundamentals Page</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+            <ul>
+                <li><button onclick="visitDatabase()">Visit The DataBase</button></li>
+                <li><button onclick="meetCrew()">Meet The Crew</button></li>
+            </ul>
+        </section>
+
+        <section class="images">
+            <img alt="Code" src="./OIP.jpg"/>
+            <img alt="Login" src="./th (9).jpeg"/> 
+            <img alt="algorithm" src="./Captura de pantalla (2).png"/> 
+            <img alt="flow chart" src="./Captura de pantalla (3).png"/> 
+        </section>
+    
+    </main>
+
+    <footer>
+        <p>© 2025 My Programming Challenges</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+<script>
+    let random=Math.floor(math.random()*100);
+</script>
+<div class="subscribe">
+    <h2 class="crewtitle">An aditional challenge for you!</h2>
+    <label for="number">type a number between 0 and 100. Try to guess the number!</label>
+    <form action="javascript:guessNumber(number.value,random)" method="post">
+        <input type="number" id="number" name="number"/>
+        <input class="subscribebutton" type="submit" name="guess" value="guess now!"/>
+    </form>
+    <p id="answer"></p>
+
+</div>
+</body>
+</html>

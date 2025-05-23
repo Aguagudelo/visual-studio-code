@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    padding: 0;
+}
+
+.navbar li, .navbar button {
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+main {
+    padding: 2em;
+}
+
+.welcome {
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 5px;
+    margin-bottom: 2em;
+}
+
+.images img {
+    width: 150px;
+    margin: 0.5em;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.subscribe label{
+    display:block;
+    margin-bottom: 20px
+}
